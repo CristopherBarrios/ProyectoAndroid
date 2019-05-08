@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QRAPP</string>
+    <string name="name">Nombre</string>
+    <string name="role">Ocupacion</string>
+</resources>
