@@ -2,4 +2,12 @@
     <string name="app_name">QRAPP</string>
     <string name="name">Nombre</string>
     <string name="role">Ocupacion</string>
+    <string name="titulo">Añadir Usario</string>
+    <string name="añadir">Añadir</string>
+    <string name="consul">Consultar</string>
+    <array name="lista">
+        <item>Ingeniero</item>
+        <item>Jefe</item>
+        <item>Licenciado</item>
+    </array>
 </resources>
