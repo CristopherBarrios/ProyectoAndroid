@@ -13,7 +13,7 @@ import org.json.JSONObject
 
 class Main3Activity : AppCompatActivity() {
 
-    private val URL_ROOT = "http://192.168.1.7/ProyectoAndroid/HeroApi/v1/?op="
+    private val URL_ROOT = "http://192.168.43.173/ProyectoAndroid/HeroApi/v1/?op="
     val URL_GET_HEROES = URL_ROOT + "getheroes"
 
     lateinit var mHeroListView : ListView

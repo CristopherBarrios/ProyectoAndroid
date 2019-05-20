@@ -12,7 +12,7 @@
 					$db = new DbOperation(); 
 					if($db->createHeroes($_POST['name'], $_POST['role'])){
 						$response['error'] = false;
-						$response['message'] = 'SE ha añadido la cuenta exitosamente';
+						$response['message'] = 'Se ha añadido la cuenta exitosamente';
 					}else{
 						$response['error'] = true;
 						$response['message'] = 'No se ha logrado ingresar la cuenta';

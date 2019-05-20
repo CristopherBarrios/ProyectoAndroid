@@ -22,7 +22,9 @@ class Main2Activity : AppCompatActivity() {
     lateinit var heroNameText : EditText
     lateinit var heroSpinner : Spinner
 
-    private val URL_ROOT = "http://192.168.1.7/ProyectoAndroid/HeroApi/v1/?op="
+    //192.168.1.7 casa
+    //192.168.43.173
+    private val URL_ROOT = "http://192.168.43.173/ProyectoAndroid/HeroApi/v1/?op="
     val URL_ADD_HERO = URL_ROOT + "addheroes"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
